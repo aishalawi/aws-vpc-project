@@ -8,6 +8,8 @@ A fully deployed AWS cloud infrastructure featuring a custom VPC, public/private
 **Stack:** Python Flask (frontend + backend) · AWS ALB · Custom VPC
 
 ## Architecture Diagram
+
+```
 Internet
 │
 ▼
@@ -38,7 +40,7 @@ Internet
 │ │ └───────────────┘ │ │ └───────────────┘ │ │
 │ └─────────────────────┘ └────────────────────┘ │
 └─────────────────────────────────────────────────────┘
-
+```
 **Traffic flow:**  
 User → ALB (public subnet) → Frontend EC2 (private subnet) → [Flask proxy] → Backend EC2 (private subnet)
 
