@@ -1,0 +1,9 @@
+This folder contains AWS console screenshots for the project:
+- VPC configuration
+- Subnets
+- Route tables
+- NAT Gateway
+- EC2 instances
+- Load Balancer
+- Security Groups
+- Working application
